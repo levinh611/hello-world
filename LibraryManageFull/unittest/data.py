@@ -1,0 +1,81 @@
+import json
+book1 = '{"name":"Programing Vietnamese","types":"education","publisher":2020,"language":"English","author":"Nguyan Anh Tuan"}'
+book2 = '{"name": "Programing PHP","types": "education","publisher": 2020,"language": "English","author": "Ho Anh Vu"}'
+book3 = '{"name": "Programing Vietnamese","types": "education","publisher": 2020,"language": "English","author": "Nguyan Anh"}'
+book4 = '{"name": "Programing Python","types": "education","publisher": 2020,"language": "English","author": "Nguyen Anh Vu"}'
+list1 = '{"keyword":"p"}'
+list2 = '{"keyword":"p","page_size":5}'
+list3 = '{"keyword":"pr","page_index":1}'
+list4 = '{"keyword":"pro","from_publisher":2010}'
+list5 = '{"keyword":"pro","to_publisher":2021}'
+list6 = '{"keyword":"p","order_field":"publisher"}'
+list7 = '{"keyword":"p","page_size":4,"page_index":2,"from_publisher":2003,"to_publisher":2030,"order_field":"id_book"}'
+
+
+
+user12= '{"id_user":1,"id_book":3,"date":"2020-12-09","price":45000}'
+user13= '{"id_user": 5,"id_book": 7,"date": "2019-05-17","price": 34000}'
+user14= '{"id_user":3,"id_book":3,"date":"2019-11-17","price":23000}'
+user15= '{"id_user":4,"id_book":7,"date":"2019-12-02","price":3000}'
+user1 = '{"keyword":"v"}'
+user2 = '{"keyword":"v","page_size":5}'
+user3 = '{"keyword":"v","page_index":3}'
+user4 = '{"keyword":"v","from_price":2000}'
+user5 = '{"keyword":"a","to_price":60000}'
+user6 = '{"keyword":"v","order_field":"price"}'
+user7 = '{"keyword":"a","from_date":"2019-01-01"}'
+user8 = '{"keyword":"h","to_date":"2020-01-01"}'
+user9 = '{"keyword":"a","from_price":2000,"to_price":100000}'
+user10 = '{"keyword":"g","page_size":5,"page_index":1,"from_price":2000,"to_price":100000,"from_date":"2019-01-01","to_date":"2020-12-22","order_field":"date"}'
+user11 = '{"keyword":"v","page_size":3,"page_index":0,"from_price":1000,"to_price": 90000,"from_date":"2019-01-08","to_date":"2019-12-22","order_field":"price"}'
+
+User1 = '{"name_user": "Vinh","age": 18,"address": "Vinh","phone": "098773"}'
+User2 = '{"name_user": "Le Tuan Anh","age": 19,"address": "Da Nang","phone": "09728373"}'
+User3 = '{"name_user": "Vinh","age": 19,"address": "hcm","phone": "09747382"}'
+User4 = '{"name_user": "Bui Van Huy","age": 45,"address": "Da Nang","phone": "084783"}'
+User5 = '{"keyword": "v"}'
+User6 = '{"keyword": "v","page_size": 3}'
+User7 = '{"keyword": "h","page_index": 2}'
+User8 = '{"keyword": "h","from_age": 12}'
+User9 = '{"keyword": "a","to_age": 25}'
+User10 = '{"keyword":"a","order_field": "age"}'
+User11 = '{"keyword": "a","page_size": 6,"page_index": 2,"from_age": 10,"to_age": 60,"order_field": "age"}'
+
+
+book1 = json.loads(book1)
+book2 = json.loads(book2)
+book3 = json.loads(book3)
+book4 = json.loads(book4)
+list1 = json.loads(list1)
+list2 = json.loads(list2)
+list3 = json.loads(list3)
+list4 = json.loads(list4)
+list5 = json.loads(list5)
+list6 = json.loads(list6)
+list7 = json.loads(list7)
+user1 = json.loads(user1)
+user2 = json.loads(user2)
+user3 = json.loads(user3)
+user4 = json.loads(user4)
+user5 = json.loads(user5)
+user6 = json.loads(user6)
+user7 = json.loads(user7)
+user8 = json.loads(user8)
+user9 = json.loads(user9)
+user10 = json.loads(user10)
+user11 = json.loads(user11)
+user12 = json.loads(user12)
+user13 = json.loads(user13)
+user14 = json.loads(user14)
+user15 = json.loads(user15)
+User1 = json.loads(User1)
+User2 = json.loads(User2)
+User3 = json.loads(User3)
+User4 = json.loads(User4)
+User5 = json.loads(User5)
+User6 = json.loads(User6)
+User7 = json.loads(User7)
+User8 = json.loads(User8)
+User9 = json.loads(User9)
+User10 = json.loads(User10)
+User11 = json.loads(User11)
